@@ -1,0 +1,94 @@
+/* Global styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin:  35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+article a:hover {
+    color: #0dc15e;
+}
+
+address h2 {
+   
+    margin-bottom: 50px;
+   background-color: white;
+   padding: 20px; width: 140px;
+   border: 1px solid #000000;
+   border-radius: 50px;
+
+}
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
